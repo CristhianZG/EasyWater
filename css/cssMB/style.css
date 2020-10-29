@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.imageDefult {
+    height: 100vh;
+    background: url("../../img/default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio {
+    background: rgba(26, 120, 195, 0.062);
+}
+
+.top-nav-collapse {
+    background: rgba(26, 120, 195, 0.795)!important;
+}
+
+.imge {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+img.resize {
+    width: 25%;
+    /* you can use % */
+    height: auto;
+}
+
+p {
+    font-size: 17px;
+}
+
+
+/*ESTILOS DE FUENTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+h1 {
+    font-family: 'Oswald', sans-serif;
+}

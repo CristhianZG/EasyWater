@@ -1,0 +1,133 @@
+/*ESTILOS PARA LE DASHBOARD*/
+
+#wrapper {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+
+/*ESTILOS PARA ARREGLOS*/
+
+.navbar {
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.btn {
+    margin: 0%;
+    size: 20ch;
+    background-color: transparent;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.color {
+    /*COLOR PRIMARIO*/
+    background-color: rgb(72, 147, 207);
+    color: white;
+    /*DRAK*/
+    /*background-color: rgb(69, 82, 110);*/
+    /*BLACK*/
+    /*background-color: rgb(22, 28, 39);*/
+}
+
+.colorHeader {
+    /*COLOR PRIMARIO*/
+    background-color: rgba(72, 147, 207);
+    color: white;
+    /*DRAK*/
+    /*background-color: rgba(69, 82, 110);*/
+    /*BLACK*/
+    /*background-color: rgba(22, 28, 39);*/
+}
+
+.btn {
+    /*COLOR PRIMARIO*/
+    background-color: rgba(65, 184, 228, 0.884);
+    color: white;
+    /*COLOR DARK*/
+    /*background-color: rgba(69, 82, 110);
+    color: white;*/
+    /*BLACK*/
+    /*background-color: rgba(22, 28, 39);
+    color: white;*/
+}
+
+a,
+label {
+    /*COLOR DARK*/
+    /*color: white;*/
+    /*BLACK*/
+    color: white;
+}
+
+
+/*BOTON DEL TOGGLE*/
+
+.btnT {
+    /*COLOR PRIMARIO*/
+    background-color: rgba(72, 147, 207);
+    color: white;
+    /*COLOR DARK*/
+    /*background-color: rgba(69, 82, 110);*/
+    /*BLACK*/
+    /*background-color: rgba(22, 28, 39);
+    color: white;*/
+}
+
+
+/*PARA LAS EDICIONES*/
+
+.card-header {
+    background-color: rgba(65, 184, 228, 0.884);
+}
+
+
+/*ESTILOS DE LETRAS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+h1 {
+    font-family: 'Oswald', sans-serif;
+}

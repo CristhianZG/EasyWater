@@ -1,3 +1,30 @@
+<?php
+
+switch ($msg) {
+    case '1':
+?>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Complete los campos!</strong> Tanto el nombre como la descripcion deben estar llenados.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    <?php
+        break;
+    case '2':
+    ?>
+        <div class=" alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Caracteres fuera de rango! </strong> Los caracteres de los campos sobre pasan los limites intente abreviar o disminuir el contenido.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+<?php
+        break;
+    default:
+        echo "";
+}
+?>
 <br>
 <br>
 <div class="container">
@@ -37,7 +64,7 @@
                         </div>
                         <br>
                         <button type="submit" class="btn btn-sm"><i class="fas fa-save"></i>
-                        Guardar</button>
+                            Guardar</button>
                     <?php
                         }
                         echo form_close();
